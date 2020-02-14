@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity
 
         switch (itemId) {
             case R.id.nav_camera:
-                fragment = new fragment_import();
+                fragment = new ItemFragment();
                 break;
             case R.id.nav_gallery:
                 fragment = new fragment_gallery();
